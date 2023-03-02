@@ -33,3 +33,26 @@ main{
     overflow-y: auto;
     width:100%;
 }
+
+/* images classes */
+
+.logo-img{
+    height:75px;
+}
+
+/* top navigation bar */
+
+#searchbar{
+    flex-grow:1;
+    background-color: lightgray;
+}
+
+#searchbar input{
+    background-color: lightgray;
+    border:none;
+}
+
+#searchbar  button{
+    border:none;
+    background-color: transparent;
+}
