@@ -19,7 +19,7 @@ header .navbar{
 }
 
 aside.navbar{
-    width:120px;
+    width:100px;
     height:100%;
 }
 
@@ -62,4 +62,25 @@ main{
 aside{
     background-color:darkblue;
     background-image: url("/img/sidebar-bg.png");
+    background-position-y: 80px;
+}
+
+/* top main content */
+
+#main-top-content{
+    background-color: aqua;
+}
+
+/* badge section */
+
+#badge-btn{
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+    background-color: blue;
+    color:white;
+}
+
+.navbar-toggler{
+    padding:0;
 }
