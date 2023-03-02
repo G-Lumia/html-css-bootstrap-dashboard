@@ -19,7 +19,7 @@ header .navbar{
 }
 
 aside.navbar{
-    width:80px;
+    width:120px;
     height:100%;
 }
 
@@ -55,4 +55,11 @@ main{
 #searchbar  button{
     border:none;
     background-color: transparent;
+}
+
+/* aside navbar */
+
+aside{
+    background-color:darkblue;
+    background-image: url("/img/sidebar-bg.png");
 }
