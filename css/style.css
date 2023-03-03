@@ -1,4 +1,15 @@
+:root{
+    /* Color styles */
+    --main-top: #1B72E8;
+    --main-nav: #051E34;
+
+}
+
+
+
 /* site structure */
+
+
 .wrapper{
     overflow:hidden;
     width:100%;
@@ -55,7 +66,7 @@ main{
 /* aside navbar */
 
 aside{
-    background-color:darkblue;
+    background-color:var(--main-nav);
     background-image: url("/img/sidebar-bg.png");
     background-position-y: 80px;
 }
@@ -63,7 +74,7 @@ aside{
 /* top main content */
 
 #main-top-content{
-    background-color: aqua;
+    background-color: var(--main-top);
 }
 
 /* badge section */
